@@ -27,6 +27,8 @@ img {
     display: block;
     margin: 0 auto;
   }
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 </style>
 <body class="w3-light-grey">
 
@@ -49,7 +51,7 @@ img {
   <div class="w3-row w3-padding-60">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-blue">Crushing It!: Gary Vaynerchuk, </h1><span class="w3-opacity">Stephen Flynn, June 9th, 2018</span>
-      <br> The four-time best selling New York Times author is back. The author,
+      <br> The <em>four-time</em> best selling New York Times author is back. The author,
        of course, being the successful VaynerMedia CEO Gary Vaynerchuk, on January
         30th of this year Gary released his much awaited follow up to the 2009
          book Crush It!, a book about cashing in on your passion. Crush It! was
@@ -193,7 +195,7 @@ img {
                 others.</br>
 
            <br />
-           
+
 
                          <br />
                           <img src="nbafinals4.jpg" alt="Cleveland Cavaliers vs Golden State" width="700px" height="394px" />
@@ -223,15 +225,47 @@ img {
   </div>
   <br />
   <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-black">
           <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white">
-          <p>Enter your e-mail below and get notified on the latest reviews, BuildingBronzy and RandomRants.</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p>Enter your e-mail and get notified on the latest reviews, BuildingBronzy and RandomRants.</p>
           <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
         </div>
-      </div>
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<div id="mc_embed_signup">
+<form action="https://bronzyproductions.us19.list-manage.com/subscribe/post?u=18353c9bb1145cf3a535ccb72&amp;id=591c0f3aa9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to TheBronzyBlast for weekly e-mails!</h2>
+<div class="mc-field-group">
+	<h2><label for="mce-EMAIL">Email Address</h2>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_18353c9bb1145cf3a535ccb72_591c0f3aa9" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+  </div>
+</div>
+</div>
+</div>
+
 
       <!-- Footer -->
 <footer class="w3-container w3-dark-grey" style="padding:32px">
